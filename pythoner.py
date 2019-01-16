@@ -12,5 +12,5 @@ with open(filename,'r') as ofileo, open(filenamenew[0]+'1.txt','w') as onewfileo
                 line.replace(dates[3],last)
         onewfileo.write(line)
         
-        print(bin(done))
+        print(done)
         
